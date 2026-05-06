@@ -63,9 +63,9 @@
     },
     {
       "parameters": {
-        "sendTo": "fernando.devtalles@gmail.com",
+        "sendTo": "email-example@gmail.com",
         "subject": "Actualización de camisetas",
-        "message": "=<!DOCTYPE html>\n<html lang=\"es\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <title>Actualización completada</title>\n  </head>\n  <body style=\"font-family: Arial, sans-serif; background: #f7f7f7; padding: 20px;\">\n    <table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"max-width: 600px; margin: auto; background: #fff; padding: 20px; border: 1px solid #ddd;\">\n      <tr>\n        <td>\n          <h2 style=\"color: #49129c; margin-top: 0;\">Actualización de camisetas completada</h2>\n          <p>Hola Fernando,</p>\n          <p>El proceso de actualización de camisetas ha finalizado correctamente.</p>\n          <p>Fecha: <strong>{{$now.format('yyyy-MM-dd')}}</strong></p>\n          <p>Gracias por tu atención.</p>\n        </td>\n      </tr>\n    </table>\n\n\n\n<h1>Personas</h1>\n\n{{ $json['Email Address'] }}\n\n\n  </body>\n</html>",
+        "message": "=<!DOCTYPE html>\n<html lang=\"es\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <title>Actualización completada</title>\n  </head>\n  <body style=\"font-family: Arial, sans-serif; background: #f7f7f7; padding: 20px;\">\n    <table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"max-width: 600px; margin: auto; background: #fff; padding: 20px; border: 1px solid #ddd;\">\n      <tr>\n        <td>\n          <h2 style=\"color: #49129c; margin-top: 0;\">Actualización de camisetas completada</h2>\n          <p>Hola</p>\n          <p>El proceso de actualización de camisetas ha finalizado correctamente.</p>\n          <p>Fecha: <strong>{{$now.format('yyyy-MM-dd')}}</strong></p>\n          <p>Gracias por tu atención.</p>\n        </td>\n      </tr>\n    </table>\n\n\n\n<h1>Personas</h1>\n\n{{ $json['Email Address'] }}\n\n\n  </body>\n</html>",
         "options": {
           "appendAttribution": false
         }
